@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Contributions Guide</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+      color: #c9d1d9;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 0;
+      border-bottom: 1px solid #30363d;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: #58a6ff;
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      color: #58a6ff;
+      margin: 25px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #30363d;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #161b22;
+      border-radius: 10px;
+      padding: 25px;
+      flex: 1;
+      min-width: 300px;
+      border: 1px solid #30363d;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .yes {
+      color: #3fb950;
+    }
+
+    .no {
+      color: #f85149;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 15px 0;
+    }
+
+    li {
+      margin-bottom: 12px;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    li:before {
+      content: "•";
+      color: #58a6ff;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+
+    .tip {
+      background: rgba(56, 139, 253, 0.15);
+      border-left: 4px solid #58a6ff;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+
+    .highlight {
+      background: #1f6feb;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #30363d;
+      color: #8b949e;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>GitHub Contributions Guide</h1>
+    <p>Does uploading demo pages count as contributions?</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>What Counts as Contributions ✅</h2>
+      <ul>
+        <li><span class="yes">Commits to the default branch</span> (main/master)</li>
+        <li><span class="yes">Creating GitHub Pages sites</span></li>
+        <li><span class="yes">Opening issues</span> (bug reports, feature requests)</li>
+        <li><span class="yes">Creating pull requests</span> (even to your own repos)</li>
+        <li><span class="yes">Repository creation</span></li>
+        <li><span class="yes">Forking repositories</span></li>
+      </ul>
+
+      <div class="tip">
+        <p><strong>Pro Tip:</strong> Regular commits spread across days create a stronger contribution graph than many
+          commits on a single day.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>What Doesn't Count ❌</h2>
+      <ul>
+        <li><span class="no">Commits to non-default branches</span> (unless merged)</li>
+        <li><span class="no">Wiki edits</span> (though valuable, not shown on graph)</li>
+        <li><span class="no">Adding collaborators</span></li>
+        <li><span class="no">Starring or watching repositories</span></li>
+        <li><span class="no">Comments on issues/PRs</span> (valuable but not commits)</li>
+      </ul>
+
+      <div class="tip">
+        <p><strong>Note:</strong> Even if an activity doesn't show on your contribution graph, it still adds value to
+          your GitHub profile.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>How to Make Your Demo Page Count More</h2>
+
+  <div class="card">
+    <ul>
+      <li>Use <span class="highlight">GitHub Pages</span> to host your demo - this creates a contribution</li>
+      <li>Make regular commits over time rather than one big push</li>
+      <li>Create issues to track your progress and future enhancements</li>
+      <li>Write good README.md files with documentation</li>
+      <li>Use meaningful commit messages that describe your changes</li>
+      <li>Create pull requests for new features instead of direct commits</li>
+      <li>Add licenses to make your project more professional</li>
+    </ul>
+  </div>
+
+  <div class="tip">
+    <p><strong>Remember:</strong> While contribution graphs are satisfying, the real value is in creating a portfolio
+      that demonstrates your skills to potential employers or collaborators.</p>
+  </div>
+
+  <footer>
+    <p>GitHub contribution activity is based on commits to the default branch, issues, pull requests, and repository
+      creation.</p>
+  </footer>
+</body>
+
+</html>
