@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>video file</title>
+<style> 
+body{
+  background-color: lightgrey;
+}
+.main-card{
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(241, 218, 218);
+  width: auto;
+  padding: 5px;
+  margin: 30px;
+}
+p{padding: 0px; margin: 10px;}
+
+.lower-button{
+  background-color: rgb(167, 167, 222);
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 35%;
+  color: rgb(66, 66, 211);
+}
+.top-button1{
+  border-radius:10px;
+border:2px solid lightgray;
+padding: 2px;
+color:gray;
+margin-left: 15px;}
+
+.top-button2{
+  border-radius:10px;
+border:2px solid lightgray;
+padding: 2px;
+margin-left: 10px;
+color:gray;
+}
+
+img{
+  border-radius: 20px;
+margin-bottom: 15px;
+width: 100%;
+display: block;}
+
+h1{
+  margin: 10px;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class ="main-card">
+
+
+
+<img src="img.png" alt="image" width="100%" height="200px">
+
+ <div class="container">
+        <span class="top-button1">Nature</span>
+        <span class="top-button2">Lake</span>
+    </div>
+
+
+<h1>Lago di Braies</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi nemo iusto similique accusantium ipsum minima fugiat, quidem neque velit officia ad dolorum corporis rerum reprehenderit veniam. Neque aut soluta libero.</p>
+
+<div class="lower-button">
+Read More
+</div>
+
+
+
+  
+</body>
+</html>      
