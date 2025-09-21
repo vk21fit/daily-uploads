@@ -1,0 +1,7 @@
+function createHelloWorld(){
+    return function newFunction() {return "Hello World" }
+        
+    return newFunction;
+}
+let newV = createHelloWorld();
+console.log(newV())
