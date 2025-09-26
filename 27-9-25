@@ -1,0 +1,13 @@
+function getBiggestNumberInArrays(numbers1, numbers2) {
+    let biggest1 = Math.max(...numbers1);
+    let biggest2 = Math.max(...numbers2);
+
+    return Math.max(biggest1, biggest2)
+}
+
+export { getBiggestNumberInArrays };
+
+
+console.log(getBiggestNumberInArrays(
+    [7,2,9] , [15,28,42]
+))
