@@ -1,1 +1,18 @@
+ const calcAge2 = function(birthyear){
+  return 2024 - birthyear;
+ } 
+  
+ calcAge2(1990);
+console.log(
+  ((a,b)=>{return a + b;})   
+  (5,4)   
 
+)
+
+const calculate = (a,b) => {
+  let value1 = a + b;
+  let value2 = a * b;   
+  return [value1, value2]; 
+}
+
+console.log(calculate (2,3));
